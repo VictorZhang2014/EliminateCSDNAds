@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Victor Zhang</string>
+	<key>Builder Version</key>
+	<string>12604.1.38.1.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>移除CSDN所有广告</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.victor.studio.eliminatecsdnads</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<integer>5242880</integer>
+		<key>Global Page</key>
+		<string>index.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>index.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>本扩展插件专用于移除CSDN网站的各种广告。如果你有更好的建议，欢迎 victorzhangq@gmail.com</string>
+	<key>DeveloperIdentifier</key>
+	<string>B873AZ7BS6</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>*.csdn.net</string>
+				<string>*.csdn.com</string>
+			</array>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://www.googleplus.party/2017/10/19/强行并持久的移除CSDN各种广告/</string>
+</dict>
+</plist>
